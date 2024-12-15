@@ -1,6 +1,4 @@
-#FCFS
-#Process : [arrival_time, burst_time, pid]
-
+#First Come First Served algorithm
 
 def fcfs(process_list):
     t = 0
@@ -25,7 +23,7 @@ def fcfs(process_list):
     print(completed)
 
 
-
 if __name__ == "__main__":
+    #Process : [arrival_time, burst_time, pid]
     process_list = [[2,6,"p1"],[5,2,"p2"],[1,8,"p3"],[0,3,"p4"],[4,4,"p5"]]
     fcfs(process_list)
